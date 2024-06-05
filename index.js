@@ -16,5 +16,5 @@ app.listen(3000, () => {
 
 app.get('/kkk/:nombre', (req, res) => {
   const nombre = req.params.nombre; 
-  res.send('Yo modifique este archivo :) ');
+  res.send( " hola perreque " + nombre);
 });
